@@ -1,7 +1,7 @@
 <template>
 <div>
 <div>
-	<main>
+	<main class="aboutView">
 		<h1>What is this website all about?</h1>
 		<p>Its really simple, <strong>sloths!</strong> For a long time I have come to fall in love with these amazing creatures and have even had the opportunity to see one in real life! This website is dedicated to all things sloths from fun facts about them to my persoanl encountres and photos with sloths. So, if you love sloths and want to learn more about them, stay tuned for more information on the website!</p>
 		<h2>A list of whats to come!</h2>
@@ -85,3 +85,10 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+  .aboutView {
+    align-self: center;
+    margin: 0 1rem;
+  }
+</style>
