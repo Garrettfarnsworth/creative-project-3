@@ -87,7 +87,7 @@ export default {
 </script>
 
 <style scoped>
-  .aboutView {
+  main {
     align-self: center;
     margin: 0 1rem;
   }
