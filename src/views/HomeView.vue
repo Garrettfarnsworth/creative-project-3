@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div>
     <HelloWorld msg="Welcome to the land of Sloths"/>
   </div>
 </template>

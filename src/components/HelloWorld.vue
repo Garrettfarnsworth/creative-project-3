@@ -1,4 +1,19 @@
 <template>
+<div>
+	<div class="hero">
+		<picture>
+			<source srcset="images/SlothHeroImg1600px.jpg" media="(min-width: 801px)">
+				<source srcset="images/SlothHeroImg800px.jpg" media="(min-width: 481px)">
+					<source srcset="images/SlothHeroImg480px.jpg" media="(max-width: 480px)">
+						<img src="images/SlothHeroImg.jpg" alt="A sloth with its baby hanging from a tree">
+		</picture>
+		<div class="overlay">
+			<div class="text-wrapper-hero">
+				<h1>Sloths</h1>
+				<p>ナマケモノは最高ー</p>
+			</div>
+		</div>
+	</div>
 	<main>
 		<article class="panel">
 			<div class="image-wrapper">
@@ -28,26 +43,5 @@
 			</div>
 		</article>
 	</main>
+  </div>
 </template>
-
-<script>
-
-</script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>

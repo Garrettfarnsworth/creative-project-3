@@ -59,5 +59,29 @@
 		</div>
 	</div>
 </div>
+<h2>Here is some information about sloths kept in zoos around the United States!</h2>
+<p>Each of these sloths below has a unique personality trait that we use to describe with a buzzword. You can also learn the name 
+  the zoo has given them, gender, common animal name, common Scientific name, and the state in which they reside!
+</p>
+  <SlothList :sloths="sloths" />
 </div>
 </template>
+
+<script>
+import SlothList from "../components/SlothList.vue"
+export default {
+  name: 'about-page',
+  components: {
+    SlothList
+  },
+  data() {
+    return {
+    }
+  },
+  computed: {
+    sloths() {
+      return this.$root.$data.sloths;
+    }
+  },
+}
+</script>
